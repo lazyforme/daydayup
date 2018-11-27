@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Just blog</title>
-    <link>https://github.com/lazyforme/daydayup/</link>
-    <description>Recent content on Just blog</description>
+    <title>Novel on Just blog</title>
+    <link>https://github.com/lazyforme/daydayup/topics/novel/</link>
+    <description>Recent content in Novel on Just blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <managingEditor>youknowwcy@gmail.com (wcy)</managingEditor>
@@ -11,17 +11,8 @@
     <copyright>(c) 2018 lazyforme.</copyright>
     <lastBuildDate>Tue, 27 Nov 2018 21:13:18 +0800</lastBuildDate>
     
-	<atom:link href="https://github.com/lazyforme/daydayup/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.com/lazyforme/daydayup/topics/novel/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About Me</title>
-      <link>https://github.com/lazyforme/daydayup/about/</link>
-      <pubDate>Tue, 27 Nov 2018 21:13:18 +0800</pubDate>
-      <author>youknowwcy@gmail.com (wcy)</author>
-      <guid>https://github.com/lazyforme/daydayup/about/</guid>
-      <description>nothing for now</description>
-    </item>
     
     <item>
       <title>Second</title>

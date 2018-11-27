@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Topics on Just blog</title>
+    <link>https://github.com/lazyforme/daydayup/topics/</link>
+    <description>Recent content in Topics on Just blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>youknowwcy@gmail.com (wcy)</managingEditor>
+    <webMaster>youknowwcy@gmail.com (wcy)</webMaster>
+    <copyright>(c) 2018 lazyforme.</copyright>
+    <lastBuildDate>Tue, 27 Nov 2018 21:13:18 +0800</lastBuildDate>
+    
+	<atom:link href="https://github.com/lazyforme/daydayup/topics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fun</title>
+      <link>https://github.com/lazyforme/daydayup/topics/fun/</link>
+      <pubDate>Tue, 27 Nov 2018 21:13:18 +0800</pubDate>
+      <author>youknowwcy@gmail.com (wcy)</author>
+      <guid>https://github.com/lazyforme/daydayup/topics/fun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://github.com/lazyforme/daydayup/topics/hugo/</link>
+      <pubDate>Tue, 27 Nov 2018 21:13:18 +0800</pubDate>
+      <author>youknowwcy@gmail.com (wcy)</author>
+      <guid>https://github.com/lazyforme/daydayup/topics/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Novel</title>
+      <link>https://github.com/lazyforme/daydayup/topics/novel/</link>
+      <pubDate>Tue, 27 Nov 2018 21:13:18 +0800</pubDate>
+      <author>youknowwcy@gmail.com (wcy)</author>
+      <guid>https://github.com/lazyforme/daydayup/topics/novel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://github.com/lazyforme/daydayup/topics/test/</link>
+      <pubDate>Tue, 27 Nov 2018 21:13:18 +0800</pubDate>
+      <author>youknowwcy@gmail.com (wcy)</author>
+      <guid>https://github.com/lazyforme/daydayup/topics/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

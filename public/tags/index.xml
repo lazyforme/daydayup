@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Just blog</title>
+    <link>https://github.com/lazyforme/daydayup/tags/</link>
+    <description>Recent content in Tags on Just blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>youknowwcy@gmail.com (wcy)</managingEditor>
+    <webMaster>youknowwcy@gmail.com (wcy)</webMaster>
+    <copyright>(c) 2018 lazyforme.</copyright>
+    <lastBuildDate>Tue, 27 Nov 2018 21:13:18 +0800</lastBuildDate>
+    
+	<atom:link href="https://github.com/lazyforme/daydayup/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>https://github.com/lazyforme/daydayup/tags/about-me/</link>
+      <pubDate>Tue, 27 Nov 2018 21:13:18 +0800</pubDate>
+      <author>youknowwcy@gmail.com (wcy)</author>
+      <guid>https://github.com/lazyforme/daydayup/tags/about-me/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hellowworld</title>
+      <link>https://github.com/lazyforme/daydayup/tags/hellowworld/</link>
+      <pubDate>Tue, 27 Nov 2018 21:13:18 +0800</pubDate>
+      <author>youknowwcy@gmail.com (wcy)</author>
+      <guid>https://github.com/lazyforme/daydayup/tags/hellowworld/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
