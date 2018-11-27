@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Just blog</title>
-    <link>https://lazyforme.github.io/lazyforme/daydayup/tags/</link>
+    <link>https://lazyforme.github.io/daydayup/tags/</link>
     <description>Recent content in Tags on Just blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
@@ -11,24 +11,24 @@
     <copyright>(c) 2018 lazyforme.</copyright>
     <lastBuildDate>Tue, 27 Nov 2018 21:13:18 +0800</lastBuildDate>
     
-	<atom:link href="https://lazyforme.github.io/lazyforme/daydayup/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lazyforme.github.io/daydayup/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About Me</title>
-      <link>https://lazyforme.github.io/lazyforme/daydayup/tags/about-me/</link>
+      <link>https://lazyforme.github.io/daydayup/tags/about-me/</link>
       <pubDate>Tue, 27 Nov 2018 21:13:18 +0800</pubDate>
       <author>youknowwcy@gmail.com (wcy)</author>
-      <guid>https://lazyforme.github.io/lazyforme/daydayup/tags/about-me/</guid>
+      <guid>https://lazyforme.github.io/daydayup/tags/about-me/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hellowworld</title>
-      <link>https://lazyforme.github.io/lazyforme/daydayup/tags/hellowworld/</link>
+      <link>https://lazyforme.github.io/daydayup/tags/hellowworld/</link>
       <pubDate>Tue, 27 Nov 2018 21:13:18 +0800</pubDate>
       <author>youknowwcy@gmail.com (wcy)</author>
-      <guid>https://lazyforme.github.io/lazyforme/daydayup/tags/hellowworld/</guid>
+      <guid>https://lazyforme.github.io/daydayup/tags/hellowworld/</guid>
       <description></description>
     </item>
     
