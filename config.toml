@@ -1,5 +1,5 @@
 # hostname (and path) to the root eg. http://spf13.com/
-baseurl = "https://github.com/lazyforme/daydayup/"
+baseurl = "https://lazyforme.github.io/lazyforme/daydayup/"
 
 # Site title
 title = "Just blog"
@@ -52,7 +52,7 @@ paginatePath = "page"
     # Text for the top menu link, which goes the root URL for the site.
     # Default (if omitted) is "Home".
     home = "home"
-    
+
 
     # Select a syntax highight.
     # Check the static/css/highlight directory for options.

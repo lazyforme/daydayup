@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Test on Just blog</title>
-    <link>https://github.com/lazyforme/daydayup/topics/test/</link>
+    <link>https://lazyforme.github.io/lazyforme/daydayup/topics/test/</link>
     <description>Recent content in Test on Just blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
@@ -11,24 +11,24 @@
     <copyright>(c) 2018 lazyforme.</copyright>
     <lastBuildDate>Tue, 27 Nov 2018 21:13:18 +0800</lastBuildDate>
     
-	<atom:link href="https://github.com/lazyforme/daydayup/topics/test/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lazyforme.github.io/lazyforme/daydayup/topics/test/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Second</title>
-      <link>https://github.com/lazyforme/daydayup/2018/11/27/second/</link>
+      <link>https://lazyforme.github.io/lazyforme/daydayup/2018/11/27/second/</link>
       <pubDate>Tue, 27 Nov 2018 21:13:18 +0800</pubDate>
       <author>youknowwcy@gmail.com (wcy)</author>
-      <guid>https://github.com/lazyforme/daydayup/2018/11/27/second/</guid>
+      <guid>https://lazyforme.github.io/lazyforme/daydayup/2018/11/27/second/</guid>
       <description>nothing</description>
     </item>
     
     <item>
       <title>Just another sample post</title>
-      <link>https://github.com/lazyforme/daydayup/2018/11/27/just-another-sample-post/</link>
+      <link>https://lazyforme.github.io/lazyforme/daydayup/2018/11/27/just-another-sample-post/</link>
       <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
       <author>youknowwcy@gmail.com (wcy)</author>
-      <guid>https://github.com/lazyforme/daydayup/2018/11/27/just-another-sample-post/</guid>
+      <guid>https://lazyforme.github.io/lazyforme/daydayup/2018/11/27/just-another-sample-post/</guid>
       <description>Hello World This is a helloworld for me.</description>
     </item>
     
