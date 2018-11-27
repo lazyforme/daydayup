@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>LazyForMe</title>
-    <link>https://github.com/lazyforme/daydayup/</link>
-    <description>Recent content on LazyForMe</description>
+    <title>Fun on LazyForMe</title>
+    <link>https://github.com/lazyforme/daydayup/categories/fun/</link>
+    <description>Recent content in Fun on LazyForMe</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 27 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://github.com/lazyforme/daydayup/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.com/lazyforme/daydayup/categories/fun/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

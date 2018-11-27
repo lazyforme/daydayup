@@ -9,5 +9,41 @@
 	<atom:link href="https://github.com/lazyforme/daydayup/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Fun</title>
+      <link>https://github.com/lazyforme/daydayup/categories/fun/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/lazyforme/daydayup/categories/fun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://github.com/lazyforme/daydayup/categories/hugo/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/lazyforme/daydayup/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Novel</title>
+      <link>https://github.com/lazyforme/daydayup/categories/novel/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/lazyforme/daydayup/categories/novel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://github.com/lazyforme/daydayup/categories/test/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/lazyforme/daydayup/categories/test/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
