@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://github.com/lazyforme/daydayup/posts/second/</loc>
+    <lastmod>2018-11-27T21:13:18+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://github.com/lazyforme/daydayup/posts/helloworld/</loc>
     <lastmod>2018-11-27T00:00:00+00:00</lastmod>
   </url>
@@ -26,7 +31,7 @@
   
   <url>
     <loc>https://github.com/lazyforme/daydayup/</loc>
-    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-27T21:13:18+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -38,7 +43,7 @@
   
   <url>
     <loc>https://github.com/lazyforme/daydayup/posts/</loc>
-    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-27T21:13:18+08:00</lastmod>
     <priority>0</priority>
   </url>
   
