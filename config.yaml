@@ -6,3 +6,4 @@ indexes:
 baseurl: "https://github.com/lazyforme/daydayup"
 title: "LazyForMe"
 theme: "ananke"
+canonifyurls: true
