@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://lazyforme.github.io/sitemap.xml
