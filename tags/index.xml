@@ -1,115 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Just blog</title>
+    <title>Tags on Just Blog - 我的小窝</title>
     <link>https://lazyforme.github.io/tags/</link>
-    <description>Recent content in Tags on Just blog</description>
+    <description>Recent content in Tags on Just Blog - 我的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-EN</language>
-    <managingEditor>youknowwcy@gmail.com (wcy)</managingEditor>
-    <webMaster>youknowwcy@gmail.com (wcy)</webMaster>
-    <copyright>(c) 2018 lazyforme.</copyright>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <language>en</language>
     
 	<atom:link href="https://lazyforme.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Css</title>
-      <link>https://lazyforme.github.io/tags/css/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>youknowwcy@gmail.com (wcy)</author>
-      <guid>https://lazyforme.github.io/tags/css/</guid>
+      <title>cluster</title>
+      <link>https://lazyforme.github.io/tags/cluster/</link>
+      <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lazyforme.github.io/tags/cluster/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Development</title>
-      <link>https://lazyforme.github.io/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <author>youknowwcy@gmail.com (wcy)</author>
-      <guid>https://lazyforme.github.io/tags/development/</guid>
+      <title>deploy</title>
+      <link>https://lazyforme.github.io/tags/deploy/</link>
+      <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lazyforme.github.io/tags/deploy/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Go</title>
-      <link>https://lazyforme.github.io/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <author>youknowwcy@gmail.com (wcy)</author>
-      <guid>https://lazyforme.github.io/tags/go/</guid>
+      <title>redis</title>
+      <link>https://lazyforme.github.io/tags/redis/</link>
+      <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lazyforme.github.io/tags/redis/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Golang</title>
-      <link>https://lazyforme.github.io/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <author>youknowwcy@gmail.com (wcy)</author>
-      <guid>https://lazyforme.github.io/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Html</title>
-      <link>https://lazyforme.github.io/tags/html/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>youknowwcy@gmail.com (wcy)</author>
-      <guid>https://lazyforme.github.io/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://lazyforme.github.io/tags/hugo/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      <author>youknowwcy@gmail.com (wcy)</author>
-      <guid>https://lazyforme.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jekyll</title>
-      <link>https://lazyforme.github.io/tags/jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      <author>youknowwcy@gmail.com (wcy)</author>
-      <guid>https://lazyforme.github.io/tags/jekyll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Migration</title>
-      <link>https://lazyforme.github.io/tags/migration/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      <author>youknowwcy@gmail.com (wcy)</author>
-      <guid>https://lazyforme.github.io/tags/migration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Templates</title>
-      <link>https://lazyforme.github.io/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <author>youknowwcy@gmail.com (wcy)</author>
-      <guid>https://lazyforme.github.io/tags/templates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Theme</title>
-      <link>https://lazyforme.github.io/tags/theme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>youknowwcy@gmail.com (wcy)</author>
-      <guid>https://lazyforme.github.io/tags/theme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Themes</title>
-      <link>https://lazyforme.github.io/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <author>youknowwcy@gmail.com (wcy)</author>
-      <guid>https://lazyforme.github.io/tags/themes/</guid>
+      <title>tutorial</title>
+      <link>https://lazyforme.github.io/tags/tutorial/</link>
+      <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lazyforme.github.io/tags/tutorial/</guid>
       <description></description>
     </item>
     

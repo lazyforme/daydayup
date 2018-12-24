@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Just Blog - 我的小窝</title>
-    <link>https://lazyforme.github.io/</link>
-    <description>Recent content on Just Blog - 我的小窝</description>
+    <title>cluster on Just Blog - 我的小窝</title>
+    <link>https://lazyforme.github.io/tags/cluster/</link>
+    <description>Recent content in cluster on Just Blog - 我的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 24 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://lazyforme.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lazyforme.github.io/tags/cluster/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://lazyforme.github.io/post/redis-cluster-deploy/</guid>
       <description>Redis Cluster 集群搭建 本文参照Redis官方集群搭建教程进行集群部署，所使用的Redis版本为4.0.8。 由于部署环境有限，通过在单机上部署多个Red</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://lazyforme.github.io/about/</link>
-      <pubDate>Sat, 24 Nov 2018 21:38:52 +0800</pubDate>
-      
-      <guid>https://lazyforme.github.io/about/</guid>
-      <description>一个孤独的人，灵魂和肉体总要有一个走在路上。</description>
     </item>
     
   </channel>
