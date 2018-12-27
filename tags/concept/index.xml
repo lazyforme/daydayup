@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>redis on Just Blog - 我的小窝</title>
-    <link>https://lazyforme.github.io/categories/redis/</link>
-    <description>Recent content in redis on Just Blog - 我的小窝</description>
+    <title>concept on Just Blog - 我的小窝</title>
+    <link>https://lazyforme.github.io/tags/concept/</link>
+    <description>Recent content in concept on Just Blog - 我的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 27 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://lazyforme.github.io/categories/redis/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lazyforme.github.io/tags/concept/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://lazyforme.github.io/post/redis-clister-introduce-1/</guid>
       <description>本文翻译自 Redis cluster tutorial (https://redis.io/topics/cluster-tutorial) Redis Cluster 提供了在多个Redis节点上数据自动分片的机制，同时也保证了一定程度的可用性。当一些节点故障或者通信中断时，Redis</description>
-    </item>
-    
-    <item>
-      <title>Redis Cluster 部署</title>
-      <link>https://lazyforme.github.io/post/redis-cluster-deploy/</link>
-      <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lazyforme.github.io/post/redis-cluster-deploy/</guid>
-      <description>Redis Cluster 集群搭建 本文参照Redis官方集群搭建教程进行集群部署，所使用的Redis版本为4.0.8。 由于部署环境有限，通过在单机上部署多个Red</description>
     </item>
     
   </channel>
