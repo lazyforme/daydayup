@@ -6,10 +6,19 @@
     <description>Recent content on Just Blog - 我的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lazyforme.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>软件开发中著名的定律</title>
+      <link>https://lazyforme.github.io/post/famous-laws-of-software-development/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lazyforme.github.io/post/famous-laws-of-software-development/</guid>
+      <description>软件开发中著名的定律 该文章翻译自famous-laws-of-software-development，翻译有误的地方欢迎指正。 像其他任何领</description>
+    </item>
     
     <item>
       <title>Redis Cluster 介绍（一）</title>
@@ -35,7 +44,7 @@
       <pubDate>Sat, 24 Nov 2018 21:38:52 +0800</pubDate>
       
       <guid>https://lazyforme.github.io/about/</guid>
-      <description>一个孤独的人，灵魂和肉体总要有一个走在路上。</description>
+      <description>一个孤独的人，灵魂和肉体总要有一个走在路上。 We can only see a short distance ahead, but we can see plenty there that needs to be done.</description>
     </item>
     
   </channel>

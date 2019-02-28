@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>软件开发中著名的定律 - Just Blog - 我的小窝</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="wcy" /><meta name="description" content="软件开发中著名的定律 该文章翻译自famous-laws-of-software-development，翻译有误的地方欢迎指正。 像其他任何领" /><meta name="keywords" content="Blog, wcy" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.51 with even 4.0.0" />
+
+
+<link rel="canonical" href="https://lazyforme.github.io/post/famous-laws-of-software-development/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<link href="/dist/even.0d62aa6e.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="软件开发中著名的定律" />
+<meta property="og:description" content="软件开发中著名的定律 该文章翻译自famous-laws-of-software-development，翻译有误的地方欢迎指正。 像其他任何领" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lazyforme.github.io/post/famous-laws-of-software-development/" /><meta property="article:published_time" content="2019-02-28T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-02-28T00:00:00&#43;00:00"/>
+
+<meta itemprop="name" content="软件开发中著名的定律">
+<meta itemprop="description" content="软件开发中著名的定律 该文章翻译自famous-laws-of-software-development，翻译有误的地方欢迎指正。 像其他任何领">
+
+
+<meta itemprop="datePublished" content="2019-02-28T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-02-28T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="2599">
+
+
+
+<meta itemprop="keywords" content="development,architecture,law," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="软件开发中著名的定律"/>
+<meta name="twitter:description" content="软件开发中著名的定律 该文章翻译自famous-laws-of-software-development，翻译有误的地方欢迎指正。 像其他任何领"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Just Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Just Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">软件开发中著名的定律</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-02-28 </span>
+        <div class="post-category">
+            <a href="/categories/law/"> law </a>
+            </div>
+          <span class="more-meta"> 2599 words </span>
+          <span class="more-meta"> 6 mins read </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#软件开发中著名的定律">软件开发中著名的定律</a>
+<ul>
+<li><a href="#墨菲定律-murphy-s-law-https-www-wikiwand-com-zh-cn-e6-91-a9-e8-8f-b2-e5-ae-9a-e7-90-86"><a href="https://www.wikiwand.com/zh-cn/%E6%91%A9%E8%8F%B2%E5%AE%9A%E7%90%86">墨菲定律（Murphy’s Law）</a></a></li>
+<li><a href="#布鲁克斯定律-brook-s-law-https-en-wikipedia-org-wiki-brooks-s-law"><a href="https://en.wikipedia.org/wiki/Brooks's_law">布鲁克斯定律（Brook&rsquo;s Law）</a></a></li>
+<li><a href="#侯世达定律-hofstadter-s-law-https-www-wikiwand-com-zh-cn-e4-be-af-e4-b8-96-e8-be-be-e5-ae-9a-e5-be-8b"><a href="https://www.wikiwand.com/zh-cn/%E4%BE%AF%E4%B8%96%E8%BE%BE%E5%AE%9A%E5%BE%8B">侯世达定律（Hofstadter&rsquo;s Law）</a></a></li>
+<li><a href="#康威定律-conway-s-law-https-www-wikiwand-com-zh-cn-e5-ba-b7-e5-a8-81-e5-ae-9a-e5-be-8b"><a href="https://www.wikiwand.com/zh-cn/%E5%BA%B7%E5%A8%81%E5%AE%9A%E5%BE%8B">康威定律（Conway&rsquo;s Law）</a></a></li>
+<li><a href="#伯斯塔尔定律-postel-s-law-aka-robustness-principle-https-www-wikiwand-com-en-robustness-principle"><a href="https://www.wikiwand.com/en/Robustness_principle">伯斯塔尔定律（Postel&rsquo;s Law aka Robustness principle）</a></a></li>
+<li><a href="#帕累托法则-pareto-principle-aka-80-20-rule-https-www-wikiwand-com-zh-hans-e5-b8-95-e7-b4-af-e6-89-98-e6-b3-95-e5-88-99"><a href="https://www.wikiwand.com/zh-hans/%E5%B8%95%E7%B4%AF%E6%89%98%E6%B3%95%E5%88%99">帕累托法则（Pareto Principle aka 80-20 rule）</a></a></li>
+<li><a href="#彼得原理-the-peter-principle-https-www-wikiwand-com-zh-hans-e5-bd-bc-e5-be-97-e5-8e-9f-e7-90-86"><a href="https://www.wikiwand.com/zh-hans/%E5%BD%BC%E5%BE%97%E5%8E%9F%E7%90%86">彼得原理（The Peter Principle）</a></a></li>
+<li><a href="#柯克霍夫原则-kerchkhoff-s-principle-https-www-wikiwand-com-zh-e6-9f-af-e5-85-8b-e9-9c-8d-e5-a4-ab-e5-8e-9f-e5-89-87"><a href="https://www.wikiwand.com/zh/%E6%9F%AF%E5%85%8B%E9%9C%8D%E5%A4%AB%E5%8E%9F%E5%89%87">柯克霍夫原则（Kerchkhoff&rsquo;s Principle）</a></a></li>
+<li><a href="#林纳斯定律-linus-s-law-https-www-wikiwand-com-zh-e5-a4-a7-e6-95-99-e5-a0-82-e5-92-8c-e5-b8-82-e9-9b-86"><a href="https://www.wikiwand.com/zh/%E5%A4%A7%E6%95%99%E5%A0%82%E5%92%8C%E5%B8%82%E9%9B%86">林纳斯定律（Linus&rsquo;s Law）</a></a></li>
+<li><a href="#摩尔定律-moore-s-law-https-zh-wikipedia-org-zh-hans-e6-91-a9-e5-b0-94-e5-ae-9a-e5-be-8b"><a href="https://zh.wikipedia.org/zh-hans/%E6%91%A9%E5%B0%94%E5%AE%9A%E5%BE%8B">摩尔定律（Moore&rsquo;s Law）</a></a></li>
+<li><a href="#维尔特定律-wirth-s-law-https-zh-wikipedia-org-zh-e7-b6-ad-e7-88-be-e7-89-b9-e5-ae-9a-e5-be-8b"><a href="https://zh.wikipedia.org/zh/%E7%B6%AD%E7%88%BE%E7%89%B9%E5%AE%9A%E5%BE%8B">维尔特定律（Wirth&rsquo;s law）</a></a></li>
+<li><a href="#90-90法则-ninety-ninety-rule-https-www-wikiwand-com-zh-90-90-e6-b3-95-e5-88-99"><a href="https://www.wikiwand.com/zh/90-90%E6%B3%95%E5%88%99">90-90法则（Ninety-ninety rule）</a></a></li>
+<li><a href="#knuth-s-optimization-principle">Knuth&rsquo;s optimization principle</a></li>
+<li><a href="#诺威格定理-norvig-s-law">诺威格定理（Norvig&rsquo;s Law）</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      
+
+<h1 id="软件开发中著名的定律">软件开发中著名的定律</h1>
+
+<blockquote>
+<p>该文章翻译自<a href="https://www.timsommer.be/famous-laws-of-software-development/"><code>famous-laws-of-software-development</code></a>，翻译有误的地方欢迎指正。</p>
+</blockquote>
+
+<p>像其他任何领域一样，软件开发领域中有许多有趣、著名的法则、原理和定律。程序员、开发者、管理者和架构师经常在对话，会议或者聊天中使用它们。在沟通中我们常常倾向于点头表示赞同，而不愿意让对方知道我们从未听过这些定律，诸如布鲁克斯定律（Brook&rsquo;s law）、摩尔定律（Moore&rsquo;s law）或者维尔特定律（Wirth‘s law）。</p>
+
+<p>这些定律是那些在软件开发领域有突出贡献的大牛们提出的一些法则、原理或者名言。同时，这些定律十分有趣，有价值，而且它们背后的故事也值得去了解。</p>
+
+<p>在这篇文章中，我将分享在软件开发领域中对于那些最著名和最常使用的定律的看法和解释。</p>
+
+<h2 id="墨菲定律-murphy-s-law-https-www-wikiwand-com-zh-cn-e6-91-a9-e8-8f-b2-e5-ae-9a-e7-90-86"><a href="https://www.wikiwand.com/zh-cn/%E6%91%A9%E8%8F%B2%E5%AE%9A%E7%90%86">墨菲定律（Murphy’s Law）</a></h2>
+
+<p>这可能是所有定律中最著名的一条了，因为它不仅仅用在软件开发领域中。</p>
+
+<blockquote>
+<p>If something can go wrong, it will.
+凡是可能出错的事，它一定会出错。</p>
+</blockquote>
+
+<p><strong>推论1：</strong>如果它有效，你可能没有写过它。
+<strong>推论2：</strong>咒骂是程序员唯一说流利的语言。
+<strong>结论：</strong>你写了什么，计算机就做什么；而不是你想什么，计算机就做什么。（PS：实践是检验真理的唯一标准）</p>
+
+<p>防御性编程、版本控制、末日场景（僵尸网络攻击）、测试驱动开发（TDD）、指标驱动开发（MDD）等等，这都是一些防止出错的最佳实践。</p>
+
+<h2 id="布鲁克斯定律-brook-s-law-https-en-wikipedia-org-wiki-brooks-s-law"><a href="https://en.wikipedia.org/wiki/Brooks's_law">布鲁克斯定律（Brook&rsquo;s Law）</a></h2>
+
+<p>大多数程序员都有意或无意中有过布鲁克斯定律的经历，其表述为：</p>
+
+<blockquote>
+<p>Adding manpower to a late software project makes it later.
+在一个已经延期的项目中增加人力资源只会使其更晚。</p>
+</blockquote>
+
+<p>如果一个项目已经延期，简单的增加人力很大可能会造成更惨重的后果。检查和评估编程效率的水平、软件方法论、技术架构等等，都是会有很好的收益。如果没有得到期望的结果，可能侯世达定律也在起作用。</p>
+
+<h2 id="侯世达定律-hofstadter-s-law-https-www-wikiwand-com-zh-cn-e4-be-af-e4-b8-96-e8-be-be-e5-ae-9a-e5-be-8b"><a href="https://www.wikiwand.com/zh-cn/%E4%BE%AF%E4%B8%96%E8%BE%BE%E5%AE%9A%E5%BE%8B">侯世达定律（Hofstadter&rsquo;s Law）</a></h2>
+
+<p>侯世达定律是以Douglas Hofstadter的名字来命名的。该定律可能与生活大爆炸中Leonard Hofstadter产生混淆，即使他说的话对你们某些人也很有道理。</p>
+
+<p><img src="media/15513340607745/15513405652870.jpg" alt="" /></p>
+
+<p>侯世达定律表述为：</p>
+
+<blockquote>
+<p>It always takes longer than you expect, even when you take into account Hofstadter&rsquo;s Law.
+做事所花费的时间总是比你预期的要长，即使你的预期中考虑了侯世达定律。</p>
+</blockquote>
+
+<p>侯世达定律指完成复杂任务需要花费的时间总是很难预计的。其自指的特征反映了即便意识到任务的复杂性，预计花费的时间仍是困难的。</p>
+
+<p>这就是为什么在你做出任何估计之前都要留有一些缓冲时间。如果你想了解更多关于如何更好地进行预估，请看我的另一篇文章：<a href="https://www.timsommer.be/estimation-wizardry/">Estimation Wizardry</a>。</p>
+
+<h2 id="康威定律-conway-s-law-https-www-wikiwand-com-zh-cn-e5-ba-b7-e5-a8-81-e5-ae-9a-e5-be-8b"><a href="https://www.wikiwand.com/zh-cn/%E5%BA%B7%E5%A8%81%E5%AE%9A%E5%BE%8B">康威定律（Conway&rsquo;s Law）</a></h2>
+
+<blockquote>
+<p>Any piece of software reflects the organizational structure that produced it.
+任何软件都能反映出设计它的组织架构。</p>
+</blockquote>
+
+<p>换句话说：</p>
+
+<blockquote>
+<p>Organizations which design systems are constrained to produce designs which are copies of the communication structure of these organizations.
+设计系统的架构受制于产生这些设计的组织的沟通结构。</p>
+</blockquote>
+
+<p>在许多组织中，团队都是根据他们的职能进行划分。所以，你们会有前端、后端、数据库团队。简单的说，如果有人想改变一些其他人负责的东西，这对于他来说很难。</p>
+
+<p>一个比较好的方式是通过围绕有界限的上下文来打造团队。例如对微服务架构来说，他们的团队根据业务边界而不是固有的技术架构来做分解。</p>
+
+<blockquote>
+<p>如果团队、部门、子部门等的组织结构没有紧密反映产品的必要组成或产品组成的关系，那么项目将会遇到麻烦。因此，应该确保组织结构兼容于产品架构。
+&ndash;《敏捷软件开发的组织模式》</p>
+</blockquote>
+
+<h2 id="伯斯塔尔定律-postel-s-law-aka-robustness-principle-https-www-wikiwand-com-en-robustness-principle"><a href="https://www.wikiwand.com/en/Robustness_principle">伯斯塔尔定律（Postel&rsquo;s Law aka Robustness principle）</a></h2>
+
+<blockquote>
+<p>Be conservative in what you send, be liberal in what you accept.
+输出信息时要严谨，接收信息时要宽松。（PS：严于律己，宽以待人）</p>
+</blockquote>
+
+<p>Jon Postel最初通过实现TCP协议的鲁棒性而阐明这一定律的。这一定律也体现在HTML中，它的成功或者失败取决于你请求何种属性值。</p>
+
+<h2 id="帕累托法则-pareto-principle-aka-80-20-rule-https-www-wikiwand-com-zh-hans-e5-b8-95-e7-b4-af-e6-89-98-e6-b3-95-e5-88-99"><a href="https://www.wikiwand.com/zh-hans/%E5%B8%95%E7%B4%AF%E6%89%98%E6%B3%95%E5%88%99">帕累托法则（Pareto Principle aka 80-20 rule）</a></h2>
+
+<p>其也成为80/20法则。</p>
+
+<blockquote>
+<p>For many phenomena, 80% of consequences stem from 20% of the causes.
+对于大多数现象来说，20%的变因操纵着80%的局面。</p>
+</blockquote>
+
+<p>这个法则揭示一个残酷的事实，80%的bug来自于20%的代码。</p>
+
+<p>另一种陈述为，在一个公司中20%的员工做了80%的工作。问题的关键在于你对于那20%是什么不清楚。</p>
+
+<h2 id="彼得原理-the-peter-principle-https-www-wikiwand-com-zh-hans-e5-bd-bc-e5-be-97-e5-8e-9f-e7-90-86"><a href="https://www.wikiwand.com/zh-hans/%E5%BD%BC%E5%BE%97%E5%8E%9F%E7%90%86">彼得原理（The Peter Principle）</a></h2>
+
+<p>如果你有第一手经验的话，就知道这是一个非常压抑，有时令人沮丧的定律。</p>
+
+<blockquote>
+<p>In a hierarchy, every employee tends to rise to his level of incompetence.
+在等级制定中，每个员工会被擢升到他所不能胜任的职位。</p>
+</blockquote>
+
+<p>看下面的漫画，你也也许会得到一些启示。</p>
+
+<p><img src="media/15513340607745/15513609745102.jpg" alt="" /></p>
+
+<h2 id="柯克霍夫原则-kerchkhoff-s-principle-https-www-wikiwand-com-zh-e6-9f-af-e5-85-8b-e9-9c-8d-e5-a4-ab-e5-8e-9f-e5-89-87"><a href="https://www.wikiwand.com/zh/%E6%9F%AF%E5%85%8B%E9%9C%8D%E5%A4%AB%E5%8E%9F%E5%89%87">柯克霍夫原则（Kerchkhoff&rsquo;s Principle）</a></h2>
+
+<blockquote>
+<p>In cryptography, a system should be secure even if everything about the system, except for a small piece of information - the key - is public knowledge.
+即使密码系统的任何细节都被人所知，只要密钥未泄露，那么该系统就是安全的。</p>
+</blockquote>
+
+<p>这是公开密钥密码学中最主要的原则。</p>
+
+<h2 id="林纳斯定律-linus-s-law-https-www-wikiwand-com-zh-e5-a4-a7-e6-95-99-e5-a0-82-e5-92-8c-e5-b8-82-e9-9b-86"><a href="https://www.wikiwand.com/zh/%E5%A4%A7%E6%95%99%E5%A0%82%E5%92%8C%E5%B8%82%E9%9B%86">林纳斯定律（Linus&rsquo;s Law）</a></h2>
+
+<p>以 Linus Torvalds —— linux的作者，命名，该原则为：</p>
+
+<blockquote>
+<p>Given enough eyeballs, all bugs are shallow.
+足够多的眼睛，就可让所有问题浮现。</p>
+</blockquote>
+
+<p>著名的《<a href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">大教堂与集市</a>》，描述了这一定律。它解释了两种不同的软件开发模式的不同：</p>
+
+<ul>
+<li>大教堂模式，源代码将在软件发行之后公开，但是在每个版本代码开发中严格受限于一个专有的软件开发团队。</li>
+<li>集市模式，代码在开发过程中即在互联网公开，供人审阅。</li>
+</ul>
+
+<p>结论是，源代码越广泛地被公开测试、审查和实验，各种形式的bug将被越快的发现。</p>
+
+<h2 id="摩尔定律-moore-s-law-https-zh-wikipedia-org-zh-hans-e6-91-a9-e5-b0-94-e5-ae-9a-e5-be-8b"><a href="https://zh.wikipedia.org/zh-hans/%E6%91%A9%E5%B0%94%E5%AE%9A%E5%BE%8B">摩尔定律（Moore&rsquo;s Law）</a></h2>
+
+<blockquote>
+<p>The power of computer per unit cost doubles every 24 months.
+计算机的性能每两年提升一倍。</p>
+</blockquote>
+
+<p>更为为人所知的版本是：</p>
+
+<blockquote>
+<p>The number of transistors on an integrated circuit will double in about 18 months.
+集成电路上可容纳的晶体管数目，每18个月便会增加一倍。</p>
+</blockquote>
+
+<p>或者如下：</p>
+
+<blockquote>
+<p>The processing speed of computers will double every two years.
+计算机的处理速度，每两年便会提升一倍。</p>
+</blockquote>
+
+<p><img src="media/15513340607745/15513629620394.jpg" alt="" /></p>
+
+<h2 id="维尔特定律-wirth-s-law-https-zh-wikipedia-org-zh-e7-b6-ad-e7-88-be-e7-89-b9-e5-ae-9a-e5-be-8b"><a href="https://zh.wikipedia.org/zh/%E7%B6%AD%E7%88%BE%E7%89%B9%E5%AE%9A%E5%BE%8B">维尔特定律（Wirth&rsquo;s law）</a></h2>
+
+<blockquote>
+<p>Software gets slower faster than hardware gets faster.
+程序变慢的速度快过硬件变快的速度。</p>
+</blockquote>
+
+<p>该定律与摩尔定律相对立。</p>
+
+<h2 id="90-90法则-ninety-ninety-rule-https-www-wikiwand-com-zh-90-90-e6-b3-95-e5-88-99"><a href="https://www.wikiwand.com/zh/90-90%E6%B3%95%E5%88%99">90-90法则（Ninety-ninety rule）</a></h2>
+
+<blockquote>
+<p>The first 90% of the code takes 10% of the time. The remain 10% takes the other 90% of the time.（from original text）</p>
+</blockquote>
+
+<p>根据维基百科的描述：</p>
+
+<blockquote>
+<p>The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time.
+（开发软件时）前90%的代码要花费90%的开发时间，剩余的10%的代码要再花费90%的开发时间。</p>
+</blockquote>
+
+<h2 id="knuth-s-optimization-principle">Knuth&rsquo;s optimization principle</h2>
+
+<blockquote>
+<p>Premature optimization is the root of all evil.
+过早的优化是罪恶之源。</p>
+</blockquote>
+
+<p>首先，你需要写出代码，然后找到它的瓶颈，最后针对它进行优化。</p>
+
+<p><img src="media/15513340607745/15513640910058.jpg" alt="" /></p>
+
+<h2 id="诺威格定理-norvig-s-law">诺威格定理（Norvig&rsquo;s Law）</h2>
+
+<blockquote>
+<p>Any technology that surpasses 50% penetration will never double again (in any number of months).
+任何超过50%渗透率的技术不会再翻番（在接下来的时间里）。</p>
+</blockquote>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">wcy</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2019-02-28</span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div><footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/development/">development</a>
+          <a href="/tags/architecture/">architecture</a>
+          <a href="/tags/law/">law</a>
+          </div>
+      <nav class="post-nav">
+        
+        <a class="next" href="/post/redis-clister-introduce-1/">
+            <span class="next-text nav-default">Redis Cluster 介绍（一）</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        <div id="comments-gitment"></div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitment@0.0.3/style/default.min.css" crossorigin="anonymous">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      var gitment = new Gitment({
+        id: '2019-02-28 00:00:00 \x2b0000 UTC',
+        title: '软件开发中著名的定律',
+        link: decodeURI(location.href),
+        desc: '软件开发中著名的定律 该文章翻译自famous-laws-of-software-development，翻译有误的地方欢迎指正。 像其他任何领',
+        owner: 'lazyforme',
+        repo: 'lazyforme.github.io',
+        oauth: {
+          client_id: '613ee266d433684031d0',
+          client_secret: '2ae09329ee40a8c4436110f27dae89fb732dd3f7'
+        }
+      });
+      gitment.render('comments-gitment');
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://github.com/imsun/gitment">comments powered by gitment.</a></noscript>
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:youknowwcy@gmail.com" class="iconfont icon-email" title="email"></a>
+  <a href="https://lazyforme.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> site pv: <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+      <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> site uv: <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2018 - 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">wcy</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.ece58db6.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

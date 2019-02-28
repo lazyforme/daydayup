@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Just Blog - 我的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lazyforme.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>软件开发中著名的定律</title>
+      <link>https://lazyforme.github.io/post/famous-laws-of-software-development/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lazyforme.github.io/post/famous-laws-of-software-development/</guid>
+      <description>软件开发中著名的定律 该文章翻译自famous-laws-of-software-development，翻译有误的地方欢迎指正。 像其他任何领</description>
+    </item>
     
     <item>
       <title>Redis Cluster 介绍（一）</title>

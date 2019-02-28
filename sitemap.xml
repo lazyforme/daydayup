@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lazyforme.github.io/post/famous-laws-of-software-development/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://lazyforme.github.io/post/redis-clister-introduce-1/</loc>
     <lastmod>2018-12-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -31,20 +38,27 @@
   
   <url>
     <loc>https://lazyforme.github.io/</loc>
-    <lastmod>2018-12-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lazyforme.github.io/post/</loc>
-    <lastmod>2018-12-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lazyforme.github.io/tags/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lazyforme.github.io/tags/architecture/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -71,14 +85,35 @@
   </url>
   
   <url>
-    <loc>https://lazyforme.github.io/categories/redis/</loc>
-    <lastmod>2018-12-27T00:00:00+00:00</lastmod>
+    <loc>https://lazyforme.github.io/tags/development/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lazyforme.github.io/tags/law/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lazyforme.github.io/categories/law/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lazyforme.github.io/tags/redis/</loc>
+    <lastmod>2018-12-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lazyforme.github.io/categories/redis/</loc>
     <lastmod>2018-12-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
